@@ -1,0 +1,67 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+Main {
+    margin: 0;
+    width: 100%;
+    height: 650px;  
+}
+
+.fondo {
+    width: 100%; 
+    height: 650px;    
+    background: rgba(242,246,248,1);
+    background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(27%, rgba(216,225,231,1)), color-stop(35%, rgba(216,225,231,1)), color-stop(40%, rgba(216,225,231,1)), color-stop(49%, rgba(216,225,231,1)), color-stop(100%, rgba(161,162,163,1)));
+    background: -webkit-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
+    background: -o-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
+    background: -ms-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
+    background: linear-gradient(to bottom, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#a1a2a3', GradientType=0 );
+
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+
+    .imagen {
+        background-image: url("../img/manzanita.png");
+        background-position: center;
+        background-size: cover;
+        width: 150px;
+        height: 150px;
+
+        h1 {
+            size: 40px;
+            font-family: $mac-font;
+            color: grey;
+        }
+
+        h2 {
+            size: 20px;
+            font-family: $mac-font;
+            color: grey;
+            margin: 0;
+        }
+        
+    }
+
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    h6 {
+        size: 10px;
+        font-family: $mac-font;
+        color: #000000;
+
+    }
+}

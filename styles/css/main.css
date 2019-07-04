@@ -1,0 +1,68 @@
+/*font*/
+@font-face {
+  font-family: "macFont";
+  src: url("../fonts/SFProText-Bold.ttf");
+}
+/*PAGES*/
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+Main {
+  margin: 0;
+  width: 100%;
+  height: 650px;
+}
+
+.fondo {
+  width: 100%;
+  height: 650px;
+  background: #f2f6f8;
+  background: -moz-linear-gradient(top, #f2f6f8 0%, #d8e1e7 27%, #d8e1e7 35%, #d8e1e7 40%, #d8e1e7 49%, #a1a2a3 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #f2f6f8), color-stop(27%, #d8e1e7), color-stop(35%, #d8e1e7), color-stop(40%, #d8e1e7), color-stop(49%, #d8e1e7), color-stop(100%, #a1a2a3));
+  background: -webkit-linear-gradient(top, #f2f6f8 0%, #d8e1e7 27%, #d8e1e7 35%, #d8e1e7 40%, #d8e1e7 49%, #a1a2a3 100%);
+  background: -o-linear-gradient(top, #f2f6f8 0%, #d8e1e7 27%, #d8e1e7 35%, #d8e1e7 40%, #d8e1e7 49%, #a1a2a3 100%);
+  background: -ms-linear-gradient(top, #f2f6f8 0%, #d8e1e7 27%, #d8e1e7 35%, #d8e1e7 40%, #d8e1e7 49%, #a1a2a3 100%);
+  background: linear-gradient(to bottom, #f2f6f8 0%, #d8e1e7 27%, #d8e1e7 35%, #d8e1e7 40%, #d8e1e7 49%, #a1a2a3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#f2f6f8", endColorstr="#a1a2a3", GradientType=0 );
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo .imagen {
+  background-image: url("../img/manzanita.png");
+  background-position: center;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+}
+.logo .imagen h1 {
+  size: 40px;
+  font-family: "macFont";
+  color: grey;
+}
+.logo .imagen h2 {
+  size: 20px;
+  font-family: "macFont";
+  color: grey;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+}
+footer h6 {
+  size: 10px;
+  font-family: "macFont";
+  color: #000000;
+}
+
+/*# sourceMappingURL=main.css.map */

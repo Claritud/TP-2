@@ -15,7 +15,11 @@ Main {
 
 .fondo {
     width: 100%; 
-    height: 650px;    
+    height: 700px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
     background: rgba(242,246,248,1);
     background: -moz-linear-gradient(top, rgba(242,246,248,1) 0%, rgba(216,225,231,1) 27%, rgba(216,225,231,1) 35%, rgba(216,225,231,1) 40%, rgba(216,225,231,1) 49%, rgba(161,162,163,1) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(242,246,248,1)), color-stop(27%, rgba(216,225,231,1)), color-stop(35%, rgba(216,225,231,1)), color-stop(40%, rgba(216,225,231,1)), color-stop(49%, rgba(216,225,231,1)), color-stop(100%, rgba(161,162,163,1)));
@@ -30,38 +34,41 @@ Main {
 .logo {
     display: flex;
     flex-direction: column;
-
-    .imagen {
-        background-image: url("../img/manzanita.png");
-        background-position: center;
-        background-size: cover;
-        width: 150px;
-        height: 150px;
-
-        h1 {
-            size: 40px;
-            font-family: $mac-font;
-            color: grey;
-        }
-
-        h2 {
-            size: 20px;
-            font-family: $mac-font;
-            color: grey;
-            margin: 0;
-        }
+    align-items: center;
+    justify-content: center;
         
-    }
-
-}
-
-footer {
-    width: 100%;
-    height: 50px;
-    h6 {
-        size: 10px;
-        font-family: $mac-font;
-        color: #000000;
-
+    .img {
+        background-image: url("../img/manzanita1111.png");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
     }
 }
+
+h1 {
+    size: 40px;
+    margin: 5px;
+    font-family: $mac-font;
+    color: black;
+    text-shadow: 3px 2px 0 #00000038;
+}
+
+
+h3 {
+    size: 20px;
+    font-family: $mac-font;
+    color: black;
+    text-shadow: 3px 2px 0 #00000038;
+}
+
+h6 {
+    size: 10px;
+    margin: 0;
+    font-family: $mac-font;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+
+} 

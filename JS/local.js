@@ -3,7 +3,6 @@ const local = {
     vendedoras: ["Ada", "Grace", "Hedy", "Sheryl"],
   
     ventas: [
-      // tener en cuenta que Date guarda los meses del 0 (enero) al 11 (diciembre)
       { fecha: new Date(2019, 1, 4), nombreVendedora: "Grace", componentes: ["Monitor GPRS 3000", "Motherboard ASUS 1500"] },
       { fecha: new Date(2019, 0, 1), nombreVendedora: "Ada", componentes: ["Monitor GPRS 3000", "Motherboard ASUS 1500"] },
       { fecha: new Date(2019, 0, 2), nombreVendedora: "Grace", componentes: ["Monitor ASC 543", "Motherboard MZI"] },
